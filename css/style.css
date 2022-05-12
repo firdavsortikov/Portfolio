@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "binafsha";
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    background-image: url("../images/man.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    font-family: ;
+}
+h3, h1, p {
+    text-align: center;
+    color: aliceblue;
+    font-family: "binafsha";
+}
+.head h3 {
+    font-size: 20px;
+    letter-spacing: 66px;
+    background-color: rgb(221, 130, 45);
+}
+.head h1 {
+    letter-spacing: 16px;
+    font-size: 50px;
+}
+p {
+    font-style: italic;
+    font-size: 20px;
+}
+span {
+    color: rgb(221, 130, 45);
+}
+.head {
+    padding-top: 18rem;
+}
